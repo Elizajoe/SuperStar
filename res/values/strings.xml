@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">YahooSuperStar</string>
+    <string name="dummy_button">Find a Movie</string>
+    <string name="dummy_content">Yahoos Next SuperStar</string>
+    <string name="title_activity_movie_list">MovieList</string>
+
+</resources>
