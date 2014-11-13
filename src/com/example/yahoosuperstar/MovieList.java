@@ -1,13 +1,18 @@
 package com.example.yahoosuperstar;
 
 import android.app.Activity;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.AdapterView.OnItemClickListener;
 
 import com.example.yahoosuperstar.util.SystemUiHider;
+
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
@@ -59,6 +64,32 @@ public class MovieList extends Activity {
 		 ArrayAdapter<String> MovieListArrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, Movies_list);
 		 ListView MovieListItems =(ListView)findViewById(R.id.listView1);
 		 MovieListItems.setAdapter(MovieListArrayAdapter);
+		 
+		 MovieListItems.setOnItemClickListener(new OnItemClickListener() {
+
+				@Override
+				public void onItemClick(AdapterView<?> arg0, View v,int position, long id) {
+					
+					//configName = path+"/"+configList[position];
+					//System.out.println(" hey heyy Selecting config name at :" + configName);
+					
+					
+					//Intent selectionIntent = new Intent(v.getContext(),Trees.class);
+					Intent rolesIntent = new Intent(v.getContext(),Roles.class);
+					//selectionIntent.setData(Uri.parse(configName));
+					startActivity(rolesIntent);
+					
+					System.out.println("this is my selection now what??");
+					
+					
+					
+					
+				}
+			});
+			
+		 
+		 
+		 
 
 	}
 
