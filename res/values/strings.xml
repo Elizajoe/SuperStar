@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">YahooSuperStar</string>
-    <string name="dummy_button">Find a Movie</string>
+    <string name="dummy_button">Login to Yahoo</string>
     <string name="dummy_content">Yahoos Next SuperStar</string>
     <string name="title_activity_movie_list">MovieList</string>
 

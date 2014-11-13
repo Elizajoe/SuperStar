@@ -22,6 +22,7 @@ import com.example.yahoosuperstar.util.SystemUiHider;
 public class FullscreenActivity extends Activity {
 	
 	private Button button;
+	private Button find_movie_button;
 	/**
 	 * Whether or not the system UI should be auto-hidden after
 	 * {@link #AUTO_HIDE_DELAY_MILLIS} milliseconds.
@@ -58,7 +59,23 @@ public class FullscreenActivity extends Activity {
 
 		final View controlsView = findViewById(R.id.fullscreen_content_controls);
 		final View contentView = findViewById(R.id.fullscreen_content);
-
+		
+		find_movie_button =(Button) findViewById(R.id.button1);
+		find_movie_button.setOnClickListener( new OnClickListener() {
+			
+			public void onClick(View v) {
+				try{
+				Intent intent1 = new Intent(v.getContext(), MovieList.class);
+				//Intent intent = new Intent(v.getContext(), MovieList.class);
+				//intent.putExtra("JSONData", mBlogData.toString());
+				startActivity(intent1);
+				}catch(Exception e){
+					System.out.println(e);
+				}
+				
+			}
+		});
+		try{
 		// Set up an instance of SystemUiHider to control the system UI for
 		// this activity.
 		mSystemUiHider = SystemUiHider.getInstance(this, contentView,
@@ -115,7 +132,11 @@ public class FullscreenActivity extends Activity {
 				}
 			}
 		});
-
+		
+		}catch(Exception e)
+		{
+			System.out.println("the exception is :" + e);
+		}
 		// Upon interacting with UI controls, delay any scheduled hide()
 		// operations to prevent the jarring behavior of controls going away
 		// while interacting with the UI.
