@@ -52,12 +52,14 @@ public class MovieList extends Activity {
 
 		final View controlsView = findViewById(R.id.fullscreen_content_controls);
 		final View contentView = findViewById(R.id.fullscreen_content);
+
 		
 		 String[] Movies_list = new String[] { "SuperMan Returns","Batman Begins","The Hobbit","Maleficient"};
 		 
 		 ArrayAdapter<String> MovieListArrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, Movies_list);
 		 ListView MovieListItems =(ListView)findViewById(R.id.listView1);
 		 MovieListItems.setAdapter(MovieListArrayAdapter);
+
 	}
 
 	Handler mHideHandler = new Handler();
