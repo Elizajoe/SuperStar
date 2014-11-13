@@ -32,9 +32,15 @@
         </activity>
         <activity
             android:name=".ApplyActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="Apply for Role"
-		    android:screenOrientation="portrait"
-		    android:configChanges="keyboardHidden|orientation|screenSize" >
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".RoleDetailActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:label="Role Details" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
