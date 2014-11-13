@@ -127,8 +127,8 @@ public class FullscreenActivity extends Activity {
 		button.setOnClickListener( new OnClickListener() {
 			
 			public void onClick(View v) {
-				//Intent intent = new Intent(v.getContext(), LoginActivity.class);
-				Intent intent = new Intent(v.getContext(), MovieList.class);
+				Intent intent = new Intent(v.getContext(), LoginActivity.class);
+				//Intent intent = new Intent(v.getContext(), MovieList.class);
 				//intent.putExtra("JSONData", mBlogData.toString());
 				startActivity(intent);
 				
