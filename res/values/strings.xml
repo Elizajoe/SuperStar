@@ -5,8 +5,11 @@
     <string name="dummy_button">Find a Movie</string>
     <string name="dummy_content">Yahoos Next SuperStar</string>
     <string name="title_activity_movie_list">MovieList</string>
+    <string name="title_activity_apply1">Apply</string>
+    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_roles">Roles</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_role_detail">RoleDetailActivity</string>
 
 </resources>
+
