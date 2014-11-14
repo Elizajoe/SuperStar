@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".FullscreenActivity"
+            android:name="com.example.yahoosuperstar.FullscreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name"
             android:theme="@style/FullscreenTheme" >
@@ -25,30 +25,33 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".LoginActivity"
+            android:name="com.example.yahoosuperstar.LoginActivity"
             android:label="@string/title_activity_login"
             android:windowSoftInputMode="adjustResize|stateVisible" >
         </activity>
         <activity
-            android:name=".MovieList"
+            android:name="com.example.yahoosuperstar.MovieList"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_movie_list"
             android:theme="@style/FullscreenTheme" >
         </activity>
         <activity
-            android:name=".ApplyActivity"
+            android:name="com.example.yahoosuperstar.ApplyActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:label="Apply for Role"
-            android:screenOrientation="portrait" >
+            android:label="Apply for Role" >
         </activity>
         <activity
-            android:name=".RoleDetailActivity"
+            android:name="com.example.yahoosuperstar.RoleDetailActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="Role Details" >
         </activity>
         <activity
             android:name="com.example.yahoosuperstar.Roles"
             android:label="@string/title_activity_roles" >
+        </activity>
+        <activity
+            android:name="com.example.yahoosuperstar.Database"
+            android:label="@string/title_activity_database" >
         </activity>
     </application>
 

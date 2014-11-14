@@ -10,6 +10,6 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_roles">Roles</string>
     <string name="title_activity_role_detail">RoleDetailActivity</string>
+    <string name="title_activity_database">Database</string>
 
 </resources>
-

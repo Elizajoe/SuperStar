@@ -3,8 +3,6 @@ package com.example.yahoosuperstar;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 
-import com.example.yahoosuperstar.util.SystemUiHider;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -16,6 +14,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 
 public class ApplyActivity extends Activity {
@@ -101,6 +100,23 @@ public class ApplyActivity extends Activity {
 
 		flagTakePicture = false;
 		flagUploadPicture = false;
+		
+		
+		EditText editText1 = (EditText) findViewById(R.id.editText1);
+		String name = editText1.getText().toString();
+		EditText editText2 = (EditText) findViewById(R.id.editText2);
+		String email = editText2.getText().toString();
+		EditText editText3 = (EditText) findViewById(R.id.editText3);
+		String Name = editText3.getText().toString();
+		EditText editText4 = (EditText) findViewById(R.id.editText4);
+		String reditCard = editText4.getText().toString();
+		EditText editText5 = (EditText) findViewById(R.id.editText5);
+		String ExpDate = editText5.getText().toString();
+		
+		
+		
+		
+		
 	}
 
 	@Override

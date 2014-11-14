@@ -33,9 +33,23 @@
             android:layout_marginTop="1dp"
             android:background="@color/black"
             android:padding="10dp"
-            android:text="The character is a superhero that appears in comic books published by DC Comics, and is considered an American cultural icon. The Superman character was .."
+            android:text="Lead Role with SuperPowers."
             android:textColor="@color/white"
             android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff000"
+            android:text="Apply for this Role" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Applicants"
+            android:textSize="20sp" />
 
         <ScrollView
             android:id="@+id/ScrollView1"

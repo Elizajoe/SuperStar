@@ -1,16 +1,40 @@
 package com.example.yahoosuperstar;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
 
 public class RoleDetailActivity extends Activity {
-
+	private Button button;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_role_detail);
+		
+		
+		button =(Button) findViewById(R.id.button1);
+		button.setOnClickListener( new OnClickListener() {
+			
+			public void onClick(View v) {
+				try{
+				Intent intent2 = new Intent(v.getContext(), ApplyActivity.class);
+				//Intent intent = new Intent(v.getContext(), MovieList.class);
+				//intent.putExtra("JSONData", mBlogData.toString());
+				startActivity(intent2);
+				}catch(Exception e){
+					System.out.println(e);
+				}
+				
+			}
+		});
+		
+		
 	}
 
 	@Override
