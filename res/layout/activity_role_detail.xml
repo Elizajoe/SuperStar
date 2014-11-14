@@ -12,44 +12,68 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
+        android:background="#ffffff"
         android:orientation="vertical" >
 
-        <TextView
-            android:id="@+id/TextView01"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/black"
+            android:background="#2d1152"
             android:paddingBottom="10dp"
             android:paddingLeft="10dp"
-            android:paddingTop="10dp"
-            android:text="Hero"
-            android:textColor="@color/white"
-            android:textSize="30sp" />
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.87"
+                android:text="Superman"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/button1"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="10dp"
+                android:text="Apply!"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/Button01"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="10dp"
+                android:text="Share"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
 
         <TextView
             android:id="@+id/textView1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="1dp"
-            android:background="@color/black"
+            android:background="#4B2480"
             android:padding="10dp"
-            android:text="Lead Role with SuperPowers."
+            android:text="Role CAST. Any gender, 30s. Young, handsome/beautiful actor who has made it “big.” Magnetic personality, but a nice guy and very polite."
             android:textColor="@color/white"
-            android:textSize="15sp" />
-
-        <Button
-            android:id="@+id/button1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#fff000"
-            android:text="Apply for this Role" />
+            android:textSize="13sp" />
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#2d1152"
+            android:gravity="center_horizontal"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
             android:text="Applicants"
-            android:textSize="20sp" />
+            android:textColor="@color/white"
+            android:textSize="15sp" />
 
         <ScrollView
             android:id="@+id/ScrollView1"
@@ -64,21 +88,23 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="#909090"
+                    android:background="#F6EFFF"
                     android:paddingBottom="5dp"
                     android:paddingTop="5dp" >
 
                     <ImageView
                         android:id="@+id/ImageView06"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
                         android:layout_marginLeft="5dp"
                         android:layout_marginRight="5dp"
-                        android:src="@drawable/ic_launcher" />
+                        android:maxHeight="40dp"
+                        android:maxWidth="10dp"
+                        android:src="@drawable/p1" />
 
                     <RelativeLayout
                         android:id="@+id/RelativeLayout08"
-                        android:layout_width="200dp"
+                        android:layout_width="194dp"
                         android:layout_height="match_parent"
                         android:orientation="vertical"
                         android:paddingRight="5dp" >
@@ -90,8 +116,8 @@
                             android:layout_alignParentLeft="true"
                             android:layout_alignParentTop="true"
                             android:paddingTop="4dp"
-                            android:text="Daniel Jackson"
-                            android:textColor="#ffffff"
+                            android:text="Lynda Jackson"
+                            android:textColor="@color/black"
                             android:textSize="17sp" />
 
                         <TextView
@@ -112,43 +138,48 @@
                         android:orientation="vertical" >
 
                         <TextView
+                            android:id="@+id/TextView21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:layout_marginTop="4dp"
+                            android:background="#2d1152"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="2dp"
+                            android:text="VOTE!"
+                            android:textColor="#ffffff"
+                            android:textSize="15sp" />
+
+                        <TextView
                             android:id="@+id/TextView28"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="321 Votes"
                             android:textSize="10sp" />
 
-                        <TextView
-                            android:id="@+id/TextView21"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="4dp"
-                            android:background="#000000"
-                            android:padding="2dp"
-                            android:text="VOTE!"
-                            android:textColor="#ffffff"
-                            android:textSize="10sp" />
                     </LinearLayout>
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="#676767"
+                    android:background="@color/white"
                     android:paddingBottom="5dp"
                     android:paddingTop="5dp" >
 
                     <ImageView
                         android:id="@+id/ImageView01"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
                         android:layout_marginLeft="5dp"
                         android:layout_marginRight="5dp"
-                        android:src="@drawable/ic_launcher" />
+                        android:src="@drawable/p2" />
 
                     <RelativeLayout
                         android:id="@+id/RelativeLayout01"
-                        android:layout_width="200dp"
+                        android:layout_width="194dp"
                         android:layout_height="match_parent"
                         android:orientation="vertical"
                         android:paddingRight="5dp" >
@@ -161,7 +192,7 @@
                             android:layout_alignParentTop="true"
                             android:paddingTop="4dp"
                             android:text="Christena Jaquith"
-                            android:textColor="#ffffff"
+                            android:textColor="@color/black"
                             android:textSize="17sp" />
 
                         <TextView
@@ -181,22 +212,27 @@
                         android:gravity="center"
                         android:orientation="vertical" >
 
+
                         <TextView
-                            android:id="@+id/TextView13"
+                            android:id="@+id/TextView22"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:layout_marginTop="4dp"
+                            android:background="#2d1152"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="2dp"
+                            android:text="VOTE!"
+                            android:textColor="#ffffff"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/TextView32"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="301 Votes"
-                            android:textSize="10sp" />
-
-                        <TextView
-                            android:id="@+id/TextView03"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="4dp"
-                            android:background="#000000"
-                            android:padding="2dp"
-                            android:text="VOTE!"
-                            android:textColor="#ffffff"
                             android:textSize="10sp" />
                     </LinearLayout>
                 </LinearLayout>
@@ -204,21 +240,21 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="#909090"
+                    android:background="#F6EFFF"
                     android:paddingBottom="5dp"
                     android:paddingTop="5dp" >
 
                     <ImageView
                         android:id="@+id/ImageView03"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
                         android:layout_marginLeft="5dp"
                         android:layout_marginRight="5dp"
-                        android:src="@drawable/ic_launcher" />
+                        android:src="@drawable/p3" />
 
                     <RelativeLayout
                         android:id="@+id/RelativeLayout03"
-                        android:layout_width="200dp"
+                        android:layout_width="194dp"
                         android:layout_height="match_parent"
                         android:orientation="vertical"
                         android:paddingRight="5dp" >
@@ -231,7 +267,7 @@
                             android:layout_alignParentTop="true"
                             android:paddingTop="4dp"
                             android:text="Ernest Southwood"
-                            android:textColor="#ffffff"
+                            android:textColor="@color/black"
                             android:textSize="17sp" />
 
                         <TextView
@@ -251,114 +287,49 @@
                         android:gravity="center"
                         android:orientation="vertical" >
 
+
                         <TextView
-                            android:id="@+id/TextView10"
+                            android:id="@+id/TextView34"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:layout_marginTop="4dp"
+                            android:background="#2d1152"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="2dp"
+                            android:text="VOTE!"
+                            android:textColor="#ffffff"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/TextView35"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="230 Votes"
                             android:textSize="10sp" />
-
-                        <TextView
-                            android:id="@+id/TextView09"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="4dp"
-                            android:background="#000000"
-                            android:padding="2dp"
-                            android:text="VOTE!"
-                            android:textColor="#ffffff"
-                            android:textSize="10sp" />
                     </LinearLayout>
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="#676767"
-                    android:paddingBottom="5dp"
-                    android:paddingTop="5dp" >
-
-                    <ImageView
-                        android:id="@+id/ImageView02"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:layout_marginRight="5dp"
-                        android:src="@drawable/ic_launcher" />
-
-                    <RelativeLayout
-                        android:id="@+id/RelativeLayout02"
-                        android:layout_width="200dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:paddingRight="5dp" >
-
-                        <TextView
-                            android:id="@+id/TextView04"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentLeft="true"
-                            android:layout_alignParentTop="true"
-                            android:paddingTop="4dp"
-                            android:text="Ollie Montemayor"
-                            android:textColor="#ffffff"
-                            android:textSize="17sp" />
-
-                        <TextView
-                            android:id="@+id/TextView06"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentBottom="true"
-                            android:layout_alignParentLeft="true"
-                            android:paddingBottom="4dp"
-                            android:text="Yellow hair, Hazel eyes, 6&apos; 1&apos;&apos;, 168lbs"
-                            android:textSize="10sp" />
-                    </RelativeLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:gravity="center"
-                        android:orientation="vertical" >
-
-                        <TextView
-                            android:id="@+id/TextView05"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="207 Votes"
-                            android:textSize="10sp" />
-
-                        <TextView
-                            android:id="@+id/TextView07"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="4dp"
-                            android:background="#000000"
-                            android:padding="2dp"
-                            android:text="VOTE!"
-                            android:textColor="#ffffff"
-                            android:textSize="10sp" />
-                    </LinearLayout>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="#909090"
+                    android:background="@color/white"
                     android:paddingBottom="5dp"
                     android:paddingTop="5dp" >
 
                     <ImageView
                         android:id="@+id/ImageView04"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
                         android:layout_marginLeft="5dp"
                         android:layout_marginRight="5dp"
-                        android:src="@drawable/ic_launcher" />
+                        android:src="@drawable/p4" />
 
                     <RelativeLayout
                         android:id="@+id/RelativeLayout04"
-                        android:layout_width="200dp"
+                        android:layout_width="194dp"
                         android:layout_height="match_parent"
                         android:orientation="vertical"
                         android:paddingRight="5dp" >
@@ -370,8 +341,8 @@
                             android:layout_alignParentLeft="true"
                             android:layout_alignParentTop="true"
                             android:paddingTop="4dp"
-                            android:text="Clare Klassen"
-                            android:textColor="#ffffff"
+                            android:text="Tom Klassen"
+                            android:textColor="@color/black"
                             android:textSize="17sp" />
 
                         <TextView
@@ -391,22 +362,27 @@
                         android:gravity="center"
                         android:orientation="vertical" >
 
-                        <TextView
-                            android:id="@+id/TextView15"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="134 Votes"
-                            android:textSize="10sp" />
 
                         <TextView
-                            android:id="@+id/TextView17"
+                            android:id="@+id/TextView36"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
                             android:layout_marginTop="4dp"
-                            android:background="#000000"
-                            android:padding="2dp"
+                            android:background="#2d1152"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="2dp"
                             android:text="VOTE!"
                             android:textColor="#ffffff"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/TextView37"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="130 Votes"
                             android:textSize="10sp" />
                     </LinearLayout>
                 </LinearLayout>
@@ -414,21 +390,21 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="#676767"
+                    android:background="#F6EFFF"
                     android:paddingBottom="5dp"
                     android:paddingTop="5dp" >
 
                     <ImageView
                         android:id="@+id/ImageView07"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
                         android:layout_marginLeft="5dp"
                         android:layout_marginRight="5dp"
-                        android:src="@drawable/ic_launcher" />
+                        android:src="@drawable/p5" />
 
                     <RelativeLayout
                         android:id="@+id/RelativeLayout05"
-                        android:layout_width="200dp"
+                        android:layout_width="194dp"
                         android:layout_height="match_parent"
                         android:orientation="vertical"
                         android:paddingRight="5dp" >
@@ -440,8 +416,8 @@
                             android:layout_alignParentLeft="true"
                             android:layout_alignParentTop="true"
                             android:paddingTop="4dp"
-                            android:text="Antoine Mabee"
-                            android:textColor="#ffffff"
+                            android:text="Daniel Mabee"
+                            android:textColor="@color/black"
                             android:textSize="17sp" />
 
                         <TextView
@@ -461,22 +437,27 @@
                         android:gravity="center"
                         android:orientation="vertical" >
 
+
                         <TextView
-                            android:id="@+id/TextView32"
+                            android:id="@+id/TextView38"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:layout_marginTop="4dp"
+                            android:background="#2d1152"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="2dp"
+                            android:text="VOTE!"
+                            android:textColor="#ffffff"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/TextView39"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="120 Votes"
-                            android:textSize="10sp" />
-
-                        <TextView
-                            android:id="@+id/TextView29"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="4dp"
-                            android:background="#000000"
-                            android:padding="2dp"
-                            android:text="VOTE!"
-                            android:textColor="#ffffff"
                             android:textSize="10sp" />
                     </LinearLayout>
                 </LinearLayout>
@@ -484,21 +465,21 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="#909090"
+                    android:background="@color/white"
                     android:paddingBottom="5dp"
                     android:paddingTop="5dp" >
 
                     <ImageView
                         android:id="@+id/ImageView05"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
                         android:layout_marginLeft="5dp"
                         android:layout_marginRight="5dp"
-                        android:src="@drawable/ic_launcher" />
+                        android:src="@drawable/p6" />
 
                     <RelativeLayout
                         android:id="@+id/RelativeLayout07"
-                        android:layout_width="200dp"
+                        android:layout_width="194dp"
                         android:layout_height="match_parent"
                         android:orientation="vertical"
                         android:paddingRight="5dp" >
@@ -511,7 +492,7 @@
                             android:layout_alignParentTop="true"
                             android:paddingTop="4dp"
                             android:text="Roxana Hauptman"
-                            android:textColor="#ffffff"
+                            android:textColor="@color/black"
                             android:textSize="17sp" />
 
                         <TextView
@@ -531,22 +512,27 @@
                         android:gravity="center"
                         android:orientation="vertical" >
 
+
                         <TextView
-                            android:id="@+id/TextView26"
+                            android:id="@+id/TextView40"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:layout_marginTop="4dp"
+                            android:background="#2d1152"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="2dp"
+                            android:text="VOTE!"
+                            android:textColor="#ffffff"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/TextView41"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="98 Votes"
-                            android:textSize="10sp" />
-
-                        <TextView
-                            android:id="@+id/TextView24"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="4dp"
-                            android:background="#000000"
-                            android:padding="2dp"
-                            android:text="VOTE!"
-                            android:textColor="#ffffff"
                             android:textSize="10sp" />
                     </LinearLayout>
                 </LinearLayout>
@@ -554,21 +540,21 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="#676767"
+                    android:background="#F6EFFF"
                     android:paddingBottom="5dp"
                     android:paddingTop="5dp" >
 
                     <ImageView
                         android:id="@+id/ImageView08"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
                         android:layout_marginLeft="5dp"
                         android:layout_marginRight="5dp"
-                        android:src="@drawable/ic_launcher" />
+                        android:src="@drawable/p7" />
 
                     <RelativeLayout
                         android:id="@+id/RelativeLayout06"
-                        android:layout_width="200dp"
+                        android:layout_width="194dp"
                         android:layout_height="match_parent"
                         android:orientation="vertical"
                         android:paddingRight="5dp" >
@@ -581,7 +567,7 @@
                             android:layout_alignParentTop="true"
                             android:paddingTop="4dp"
                             android:text="Tam Friedland"
-                            android:textColor="#ffffff"
+                            android:textColor="@color/black"
                             android:textSize="17sp" />
 
                         <TextView
@@ -591,7 +577,82 @@
                             android:layout_alignParentBottom="true"
                             android:layout_alignParentLeft="true"
                             android:paddingBottom="4dp"
-                            android:text="Red hair, Blue eyes, 5&apos; 7&apos;&apos;, 195lbs"
+                            android:text="Black hair, Blue eyes, 5&apos; 7&apos;&apos;, 195lbs"
+                            android:textSize="10sp" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+
+                        <TextView
+                            android:id="@+id/TextView42"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:layout_marginTop="4dp"
+                            android:background="#2d1152"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="2dp"
+                            android:text="VOTE!"
+                            android:textColor="#ffffff"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/TextView43"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="67 Votes"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp" >
+
+                    <ImageView
+                        android:id="@+id/ImageView02"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/p8" />
+
+                    <RelativeLayout
+                        android:id="@+id/RelativeLayout02"
+                        android:layout_width="194dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:paddingRight="5dp" >
+
+                        <TextView
+                            android:id="@+id/TextView04"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:paddingTop="4dp"
+                            android:text="Ollie Montemayor"
+                            android:textColor="@color/black"
+                            android:textSize="17sp" />
+
+                        <TextView
+                            android:id="@+id/TextView06"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentLeft="true"
+                            android:paddingBottom="4dp"
+                            android:text="Brown hair, Hazel eyes, 6&apos; 1&apos;&apos;, 168lbs"
                             android:textSize="10sp" />
                     </RelativeLayout>
 
@@ -602,26 +663,31 @@
                         android:orientation="vertical" >
 
                         <TextView
-                            android:id="@+id/TextView22"
+                            android:id="@+id/TextView44"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="67 Votes"
-                            android:textSize="10sp" />
-
-                        <TextView
-                            android:id="@+id/TextView19"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
                             android:layout_marginTop="4dp"
-                            android:background="#000000"
-                            android:padding="2dp"
+                            android:background="#2d1152"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="2dp"
                             android:text="VOTE!"
                             android:textColor="#ffffff"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/TextView45"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="47 Votes"
                             android:textSize="10sp" />
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
         </ScrollView>
+
     </LinearLayout>
 
 </RelativeLayout>
