@@ -16,7 +16,7 @@
         <activity
             android:name="com.example.yahoosuperstar.FullscreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/app_name">
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -50,6 +50,10 @@
         <activity
             android:name="com.example.yahoosuperstar.Database"
             android:label="@string/title_activity_database" >
+        </activity>
+        <activity
+            android:name="com.example.yahoosuperstar.SecondRoleDetails"
+            android:label="@string/title_activity_second_role_details" >
         </activity>
     </application>
 

@@ -42,8 +42,14 @@ public class MovieList extends ListActivity {
     @Override
     protected void onListItemClick(ListView l, View v, int position, long id) {
         // TODO Auto-generated method stub
-        super.onListItemClick(l, v, position, id);
-		Intent rolesIntent = new Intent(v.getContext(), RoleDetailActivity.class);
+       
+    	
+    	super.onListItemClick(l, v, position, id);
+		Intent rolesIntent = new Intent(v.getContext(), SecondRoleDetails.class);
 		startActivity(rolesIntent);
+		
+		
+		
+		
     }
 }

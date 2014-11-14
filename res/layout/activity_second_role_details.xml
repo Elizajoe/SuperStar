@@ -1,0 +1,693 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#676767"
+    tools:context="com.example.yahoosuperstar.RoleDetailActivity" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2d1152"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.87"
+                android:text="Y! New Year Eve"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/button1"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="10dp"
+                android:text="Apply!"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/Button01"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="10dp"
+                android:text="Share"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="#4B2480"
+            android:padding="10dp"
+            android:text="The Wizard of Oz Year End Theme Party of 2014"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2d1152"
+            android:gravity="center_horizontal"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:text="Applicants"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <ScrollView
+            android:id="@+id/ScrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F6EFFF"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp" >
+
+                    <ImageView
+                        android:id="@+id/ImageView06"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:maxHeight="40dp"
+                        android:maxWidth="10dp"
+                        android:src="@drawable/mm" />
+
+                    <RelativeLayout
+                        android:id="@+id/RelativeLayout08"
+                        android:layout_width="194dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:paddingRight="5dp" >
+
+                        <TextView
+                            android:id="@+id/TextView30"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:paddingTop="4dp"
+                            android:text="Marissa Mayer as Dorothy"
+                            android:textColor="@color/black"
+                            android:textSize="17sp" />
+
+                        <TextView
+                            android:id="@+id/TextView23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentLeft="true"
+                            android:paddingBottom="4dp"
+                            android:text="CEO"
+                            android:textSize="10sp" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/TextView21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:layout_marginTop="4dp"
+                            android:background="#2d1152"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="2dp"
+                            android:text="VOTE!"
+                            android:textColor="#ffffff"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/TextView28"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="321 Votes"
+                            android:textSize="10sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp" >
+
+                    <ImageView
+                        android:id="@+id/ImageView01"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/sc" />
+
+                    <RelativeLayout
+                        android:id="@+id/RelativeLayout01"
+                        android:layout_width="194dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:paddingRight="5dp" >
+
+                        <TextView
+                            android:id="@+id/TextView02"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:paddingTop="4dp"
+                            android:text="The Scarecrow"
+                            android:textColor="@color/black"
+                            android:textSize="17sp" />
+
+                        <TextView
+                            android:id="@+id/TextView12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentLeft="true"
+                            android:paddingBottom="4dp"
+                            android:text="CFO"
+                            android:textSize="10sp" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+
+                        <TextView
+                            android:id="@+id/TextView22"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:layout_marginTop="4dp"
+                            android:background="#2d1152"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="2dp"
+                            android:text="VOTE!"
+                            android:textColor="#ffffff"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/TextView32"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="301 Votes"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F6EFFF"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp" >
+
+                    <ImageView
+                        android:id="@+id/ImageView03"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/tinman" />
+
+                    <RelativeLayout
+                        android:id="@+id/RelativeLayout03"
+                        android:layout_width="194dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:paddingRight="5dp" >
+
+                        <TextView
+                            android:id="@+id/TextView11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:paddingTop="4dp"
+                            android:text="TinMan"
+                            android:textColor="@color/black"
+                            android:textSize="17sp" />
+
+                        <TextView
+                            android:id="@+id/TextView08"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentLeft="true"
+                            android:paddingBottom="4dp"
+                            android:text="VP"
+                            android:textSize="10sp" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+
+                        <TextView
+                            android:id="@+id/TextView34"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:layout_marginTop="4dp"
+                            android:background="#2d1152"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="2dp"
+                            android:text="VOTE!"
+                            android:textColor="#ffffff"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/TextView35"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="230 Votes"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp" >
+
+                    <ImageView
+                        android:id="@+id/ImageView04"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/lion" />
+
+                    <RelativeLayout
+                        android:id="@+id/RelativeLayout04"
+                        android:layout_width="194dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:paddingRight="5dp" >
+
+                        <TextView
+                            android:id="@+id/TextView14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:paddingTop="4dp"
+                            android:text="The Lion"
+                            android:textColor="@color/black"
+                            android:textSize="17sp" />
+
+                        <TextView
+                            android:id="@+id/TextView16"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentLeft="true"
+                            android:paddingBottom="4dp"
+                            android:text="AVP"
+                            android:textSize="10sp" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+
+                        <TextView
+                            android:id="@+id/TextView36"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:layout_marginTop="4dp"
+                            android:background="#2d1152"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="2dp"
+                            android:text="VOTE!"
+                            android:textColor="#ffffff"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/TextView37"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="130 Votes"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F6EFFF"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp" >
+
+                    <ImageView
+                        android:id="@+id/ImageView07"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/p5" />
+
+                    <RelativeLayout
+                        android:id="@+id/RelativeLayout05"
+                        android:layout_width="194dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:paddingRight="5dp" >
+
+                        <TextView
+                            android:id="@+id/TextView31"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:paddingTop="4dp"
+                            android:text="Daniel Mabee"
+                            android:textColor="@color/black"
+                            android:textSize="17sp" />
+
+                        <TextView
+                            android:id="@+id/TextView33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentLeft="true"
+                            android:paddingBottom="4dp"
+                            android:text="Brown hair, Brown eyes, 6&apos; 7&apos;&apos;, 145lbs"
+                            android:textSize="10sp" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+
+                        <TextView
+                            android:id="@+id/TextView38"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:layout_marginTop="4dp"
+                            android:background="#2d1152"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="2dp"
+                            android:text="VOTE!"
+                            android:textColor="#ffffff"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/TextView39"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="120 Votes"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp" >
+
+                    <ImageView
+                        android:id="@+id/ImageView05"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/p6" />
+
+                    <RelativeLayout
+                        android:id="@+id/RelativeLayout07"
+                        android:layout_width="194dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:paddingRight="5dp" >
+
+                        <TextView
+                            android:id="@+id/TextView25"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:paddingTop="4dp"
+                            android:text="Roxana Hauptman"
+                            android:textColor="@color/black"
+                            android:textSize="17sp" />
+
+                        <TextView
+                            android:id="@+id/TextView18"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentLeft="true"
+                            android:paddingBottom="4dp"
+                            android:text="Black hair, Brown eyes, 5&apos; 2&apos;&apos;, 154lbs"
+                            android:textSize="10sp" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+
+                        <TextView
+                            android:id="@+id/TextView40"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:layout_marginTop="4dp"
+                            android:background="#2d1152"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="2dp"
+                            android:text="VOTE!"
+                            android:textColor="#ffffff"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/TextView41"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="98 Votes"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F6EFFF"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp" >
+
+                    <ImageView
+                        android:id="@+id/ImageView08"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/p7" />
+
+                    <RelativeLayout
+                        android:id="@+id/RelativeLayout06"
+                        android:layout_width="194dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:paddingRight="5dp" >
+
+                        <TextView
+                            android:id="@+id/TextView27"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:paddingTop="4dp"
+                            android:text="Tam Friedland"
+                            android:textColor="@color/black"
+                            android:textSize="17sp" />
+
+                        <TextView
+                            android:id="@+id/TextView20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentLeft="true"
+                            android:paddingBottom="4dp"
+                            android:text="Black hair, Blue eyes, 5&apos; 7&apos;&apos;, 195lbs"
+                            android:textSize="10sp" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+
+                        <TextView
+                            android:id="@+id/TextView42"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:layout_marginTop="4dp"
+                            android:background="#2d1152"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="2dp"
+                            android:text="VOTE!"
+                            android:textColor="#ffffff"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/TextView43"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="67 Votes"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp" >
+
+                    <ImageView
+                        android:id="@+id/ImageView02"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/p8" />
+
+                    <RelativeLayout
+                        android:id="@+id/RelativeLayout02"
+                        android:layout_width="194dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:paddingRight="5dp" >
+
+                        <TextView
+                            android:id="@+id/TextView04"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:paddingTop="4dp"
+                            android:text="Ollie Montemayor"
+                            android:textColor="@color/black"
+                            android:textSize="17sp" />
+
+                        <TextView
+                            android:id="@+id/TextView06"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentLeft="true"
+                            android:paddingBottom="4dp"
+                            android:text="Brown hair, Hazel eyes, 6&apos; 1&apos;&apos;, 168lbs"
+                            android:textSize="10sp" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/TextView44"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:layout_marginTop="4dp"
+                            android:background="#2d1152"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="2dp"
+                            android:text="VOTE!"
+                            android:textColor="#ffffff"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/TextView45"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="47 Votes"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

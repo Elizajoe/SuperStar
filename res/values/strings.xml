@@ -11,5 +11,6 @@
     <string name="title_activity_roles">Roles</string>
     <string name="title_activity_role_detail">RoleDetailActivity</string>
     <string name="title_activity_database">Database</string>
+    <string name="title_activity_second_role_details">SecondRoleDetails</string>
 
 </resources>
