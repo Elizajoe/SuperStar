@@ -44,6 +44,11 @@
             android:label="Role Details" >
         </activity>
         <activity
+            android:name="com.example.yahoosuperstar.RoleDetailYEPActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Role Details" >
+        </activity>
+        <activity
             android:name="com.example.yahoosuperstar.Roles"
             android:label="@string/title_activity_roles" >
         </activity>

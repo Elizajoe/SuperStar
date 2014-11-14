@@ -43,7 +43,13 @@ public class MovieList extends ListActivity {
     protected void onListItemClick(ListView l, View v, int position, long id) {
         // TODO Auto-generated method stub
         super.onListItemClick(l, v, position, id);
-		Intent rolesIntent = new Intent(v.getContext(), RoleDetailActivity.class);
-		startActivity(rolesIntent);
+        
+        if(position == 2){
+			Intent rolesIntent = new Intent(v.getContext(), RoleDetailYEPActivity.class);
+			startActivity(rolesIntent);
+        } else {
+			Intent rolesIntent = new Intent(v.getContext(), RoleDetailActivity.class);
+			startActivity(rolesIntent);
+        }
     }
 }
