@@ -59,7 +59,7 @@
             android:layout_marginTop="1dp"
             android:background="#4B2480"
             android:padding="10dp"
-            android:text="Role CAST. Any gender, 30s. Young, handsome/beautiful actor who has made it “big.” Magnetic personality, but a nice guy and very polite."
+            android:text="Role CAST. Any gender, 30s. Young, handsome/beautiful actor who has made it “big.” Magnetic personality"
             android:textColor="@color/white"
             android:textSize="13sp" />
 

@@ -54,6 +54,7 @@
                 android:layout_alignBottom="@+id/imageView1"
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="70dp"
+                android:layout_marginTop="20dp"
                 android:text="SuperStar"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
@@ -67,8 +68,7 @@
                 android:layout_marginBottom="25dp"
                 android:layout_marginTop="54dp"
                 android:gravity="center_horizontal"
-                android:paddingLeft="30dp"
-                android:paddingRight="30dp"
+                
                 android:text="Compete against friends and people around the world and be the super star! Sign in to start winning!"
                 android:textColor="@color/white"
                 android:textSize="14sp" />

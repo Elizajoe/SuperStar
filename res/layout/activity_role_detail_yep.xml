@@ -28,7 +28,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.87"
-                android:text="Y! New Year Party"
+                android:text="Y! New Year Eve"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
@@ -60,7 +60,7 @@
             android:layout_marginTop="1dp"
             android:background="#4B2480"
             android:padding="10dp"
-            android:text="There are few things more satisfying than wearing a costume so good, people know what you are without having to ask."
+            android:text="The Wizard of Oz Year End Theme Party of 2014. There are few things more satisfying than wearing a costume so good, people know what you are without having to ask."
             android:textColor="@color/white"
             android:textSize="13sp" />
 
@@ -101,7 +101,7 @@
                         android:layout_marginRight="5dp"
                         android:maxHeight="40dp"
                         android:maxWidth="10dp"
-                        android:src="@drawable/mmayer_square" />
+                        android:src="@drawable/doroty" />
 
                     <RelativeLayout
                         android:id="@+id/RelativeLayout08"
@@ -117,10 +117,9 @@
                             android:layout_alignParentLeft="true"
                             android:layout_alignParentTop="true"
                             android:paddingTop="4dp"
-                            android:text="Marissa Mayer
-"
+                            android:text="Marissa Mayer as Dorothy"
                             android:textColor="@color/black"
-                            android:textSize="17sp" />
+                            android:textSize="15sp" />
 
                         <TextView
                             android:id="@+id/TextView23"
@@ -177,7 +176,7 @@
                         android:layout_height="48dp"
                         android:layout_marginLeft="5dp"
                         android:layout_marginRight="5dp"
-                        android:src="@drawable/bonforte_square" />
+                        android:src="@drawable/cr" />
 
                     <RelativeLayout
                         android:id="@+id/RelativeLayout01"
@@ -193,10 +192,9 @@
                             android:layout_alignParentLeft="true"
                             android:layout_alignParentTop="true"
                             android:paddingTop="4dp"
-                            android:text="Jeffrey Bonforte
-"
+                            android:text="Jeffrey Bonforte as The Scarecrow"
                             android:textColor="@color/black"
-                            android:textSize="17sp" />
+                            android:textSize="11sp" />
 
                         <TextView
                             android:id="@+id/TextView12"
@@ -269,10 +267,9 @@
                             android:layout_alignParentLeft="true"
                             android:layout_alignParentTop="true"
                             android:paddingTop="4dp"
-                            android:text="John DeVine
-"
+                            android:text="John DeVine as The Cowardly Lion"
                             android:textColor="@color/black"
-                            android:textSize="17sp" />
+                            android:textSize="11sp" />
 
                         <TextView
                             android:id="@+id/TextView08"
@@ -345,10 +342,9 @@
                             android:layout_alignParentLeft="true"
                             android:layout_alignParentTop="true"
                             android:paddingTop="4dp"
-                            android:text="Scott Burke
-"
+                            android:text="Scott Burke as The Tin Man"
                             android:textColor="@color/black"
-                            android:textSize="17sp" />
+                            android:textSize="13sp" />
 
                         <TextView
                             android:id="@+id/TextView16"
