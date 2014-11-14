@@ -109,24 +109,6 @@ public class ApplyActivity extends Activity {
 		flagTakePicture = false;
 		flagUploadPicture = false;
 		
-		
-		EditText editText1 = (EditText) findViewById(R.id.editText1);
-		String name = editText1.getText().toString();
-		EditText editText2 = (EditText) findViewById(R.id.editText2);
-		String email = editText2.getText().toString();
-		EditText editText3 = (EditText) findViewById(R.id.editText3);
-		String Name = editText3.getText().toString();
-		EditText editText4 = (EditText) findViewById(R.id.editText4);
-		String reditCard = editText4.getText().toString();
-		EditText editText5 = (EditText) findViewById(R.id.editText5);
-		String ExpDate = editText5.getText().toString();
-		
-		
-		
-		
-		
-		
-		
 	}
 
 	@Override
