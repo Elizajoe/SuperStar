@@ -55,6 +55,14 @@ public class ApplyActivity extends Activity {
 				choose();
 			}
 		});
+		
+		Button apply = (Button) findViewById(R.id.button1);
+		apply.setOnClickListener( new OnClickListener() {
+			public void onClick(View v) {
+				Intent intent1 = new Intent(v.getContext(), RoleDetailActivity.class);
+				startActivity(intent1);
+			}
+		});
 	}
 	public void takePicture(){
 		Intent intent = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
