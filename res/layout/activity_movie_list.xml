@@ -64,16 +64,17 @@
                     android:paddingTop="10dp"
                     android:text="Events"
                     android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/white"
                     android:textSize="28sp" />
 
             </RelativeLayout>
 
             <ListView
                 android:id="@android:id/list"
-                android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="#4B2480" >
+                android:background="@color/white"
+                android:clickable="true" >
 
             </ListView>
 

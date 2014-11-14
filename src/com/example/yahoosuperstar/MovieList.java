@@ -30,7 +30,7 @@ public class MovieList extends ListActivity {
 
 		setContentView(R.layout.activity_movie_list);
 
-		final View controlsView = findViewById(R.id.fullscreen_content_controls);
+		// final View controlsView = findViewById(R.id.fullscreen_content_controls);
 		final View contentView = findViewById(R.id.fullscreen_content);
 
 		 String[] Movies_list = new String[] { "Superman Returns (Audition)","Joe's Halloween Party","Y! New Year Party","Food Party @Jenny's"};

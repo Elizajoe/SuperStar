@@ -30,44 +30,86 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#3D008B"
         android:fitsSystemWindows="true" >
 
-        <LinearLayout
-            android:id="@+id/fullscreen_content_controls"
-            style="?buttonBarStyle"
+        <RelativeLayout
+            android:id="@+id/RelativeLayout1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom|center_horizontal"
-            android:background="@color/black_overlay"
-            android:orientation="horizontal"
-            tools:ignore="UselessParent" >
-
-            <Button
-                android:id="@+id/dummy_button"
-                style="?buttonBarButtonStyle"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/dummy_button"
-                android:textColorLink="@color/black_overlay" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="431dp"
+            android:background="#3D008B"
             android:gravity="center"
             android:orientation="vertical" >
 
-            <Button
-                android:id="@+id/button1"
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="258dp"
+                android:src="@drawable/ylogo" />
+
+            <TextView
+                android:id="@+id/textView1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="200dp"
-                android:text="Find Upcoming Movie" />
+                android:layout_alignBottom="@+id/imageView1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="70dp"
+                android:text="SuperStar"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
 
-        </LinearLayout>
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/textView1"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="54dp"
+                android:gravity="center_horizontal"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:text="Compete against friends and people around the world and be the super star! Sign in to start winning!"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
 
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="39dp"
+                android:ems="10"
+                android:hint="Username"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/editText1"
+                android:layout_below="@+id/editText1"
+                android:ems="10"
+                android:hint="Password"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" >
+
+                <requestFocus />
+            </EditText>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/editText2"
+                android:layout_alignRight="@+id/editText2"
+                android:layout_below="@+id/editText2"
+                android:text="Sign in"
+                android:textColor="@color/white" />
+
+        </RelativeLayout>
     </FrameLayout>
 
 </FrameLayout>

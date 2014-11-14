@@ -16,8 +16,7 @@
         <activity
             android:name="com.example.yahoosuperstar.FullscreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/app_name"
-            android:theme="@style/FullscreenTheme" >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -32,8 +31,7 @@
         <activity
             android:name="com.example.yahoosuperstar.MovieList"
             android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_movie_list"
-            android:theme="@style/FullscreenTheme" >
+            android:label="@string/title_activity_movie_list" >
         </activity>
         <activity
             android:name="com.example.yahoosuperstar.ApplyActivity"
